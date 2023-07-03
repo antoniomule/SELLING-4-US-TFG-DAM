@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.legacy.MFXLegacyComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="782.0" prefWidth="604.0" style="-fx-background-color: #d4eed7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DetallesAnuncioController">
+   <children>
+      <ImageView fx:id="idImagen" fitHeight="250.0" fitWidth="274.0" layoutX="163.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Line endX="334.00006103515625" endY="-3.0517578125E-5" layoutX="249.0" layoutY="272.0" startX="-249.50709533691406" startY="-3.0517578125E-5" />
+      <Label fx:id="idTitulo" layoutX="21.0" layoutY="292.0" prefHeight="27.0" prefWidth="239.0" text="Titulo">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="idDescripcion" layoutX="19.0" layoutY="327.0" prefHeight="27.0" prefWidth="339.0" text="Descripcion">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="idPrecio" layoutX="498.0" layoutY="354.0" prefHeight="27.0" prefWidth="54.0" text="Precio">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Text layoutX="565.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="€">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Label layoutX="451.0" layoutY="431.0" text="Revision: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="idRevision" layoutX="514.0" layoutY="432.0" text="Revision" />
+      <WebView fx:id="idWebMapa" layoutX="175.0" layoutY="474.0" prefHeight="150.0" prefWidth="250.0" />
+      <Label layoutX="19.0" layoutY="474.0" text="Ciudad: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="idCiudadText" layoutX="73.0" layoutY="475.0" text="ciudad" />
+      <Label layoutX="453.0" layoutY="402.0" text="Estado: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="idEstado" layoutX="504.0" layoutY="403.0" text="Estado" />
+      <Label layoutX="19.0" layoutY="421.0" text="Categoria: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="392.0" text="Dueño: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="idCategoria" layoutX="91.0" layoutY="423.0" text="categoria" />
+      <Label fx:id="nombreDueño" layoutX="74.0" layoutY="394.0" text="dueño" />
+      <Text fill="RED" layoutX="3.0" layoutY="637.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - " />
+      <MFXLegacyComboBox fx:id="idComboBoxTipos" layoutX="16.0" layoutY="697.0" prefHeight="24.0" prefWidth="118.0" promptText="Tipos" />
+      <Text fill="RED" layoutX="16.0" layoutY="664.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BLOQUEAR ANUNCIO">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <MFXLegacyComboBox fx:id="idComboBoxDetalles" layoutX="160.0" layoutY="698.0" prefHeight="23.0" prefWidth="224.0" promptText="Detalle" />
+      <MFXButton fx:id="idButtonBloquear" layoutX="466.0" layoutY="692.0" onMouseClicked="#OnMouseClickBloquear" prefHeight="34.0" prefWidth="78.0" text="Bloquaer" />
+      <Text fx:id="idTextMEnsajeNotificacion" fill="RED" layoutX="71.0" layoutY="764.0" strokeType="OUTSIDE" strokeWidth="0.0" style="visibility: false;" text="Este anuncio será bloqueado y eliminado de la aplicación hasta nueva modificación" />
+   </children>
+</AnchorPane>

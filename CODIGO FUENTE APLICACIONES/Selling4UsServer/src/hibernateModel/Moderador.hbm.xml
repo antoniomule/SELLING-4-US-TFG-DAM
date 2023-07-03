@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 03-abr-2023 13:06:51 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="selling4us" name="hibernateModel.Moderador" optimistic-lock="version" table="moderador">
+    <id name="idModerador" type="java.lang.Integer">
+      <column name="idModerador"/>
+      <generator class="identity"/>
+    </id>
+    <many-to-one class="hibernateModel.Categoria" fetch="select" name="categoria">
+      <column name="idCategoria" not-null="true"/>
+    </many-to-one>
+    <many-to-one class="hibernateModel.Usuario" fetch="select" name="usuario">
+      <column name="idUsuario" not-null="true"/>
+    </many-to-one>
+  </class>
+</hibernate-mapping>

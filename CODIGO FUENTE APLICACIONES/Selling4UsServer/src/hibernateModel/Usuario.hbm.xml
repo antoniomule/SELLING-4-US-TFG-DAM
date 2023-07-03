@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 03-abr-2023 13:06:51 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="selling4us" name="hibernateModel.Usuario" optimistic-lock="version" table="usuario">
+    <id name="idUsuario" type="java.lang.Integer">
+      <column name="idUsuario"/>
+      <generator class="identity"/>
+    </id>
+    <property name="nombre" type="string">
+      <column length="50" name="Nombre" not-null="true"/>
+    </property>
+    <property name="contraseña" type="string">
+      <column length="180" name="Contraseña" not-null="true"/>
+    </property>
+    <property name="fechaNacimiento" type="date">
+      <column length="10" name="Fecha_nacimiento" not-null="true"/>
+    </property>
+    <property name="direccion" type="string">
+      <column length="50" name="Direccion" not-null="true"/>
+    </property>
+    <set fetch="select" inverse="true" lazy="true" name="compras" table="compra">
+      <key>
+        <column name="idUsuario" not-null="true"/>
+      </key>
+      <one-to-many class="hibernateModel.Compra"/>
+    </set>
+    
+    
+    <set fetch="select" inverse="true" lazy="true" name="notificaciones" table="notificacion">
+      <key>
+        <column name="idUsuario" not-null="true"/>
+      </key>
+      <one-to-many class="hibernateModel.Notificacion"/>
+    </set>
+    
+    <set name="ofertas" cascade="save-update" table="oferta">
+        <key column="idUsuario"/> 
+        <many-to-many column="idOferta" class="hibernateModel.Anuncio"/> 
+    </set>
+    
+    <set name="favoritos" cascade="save-update" table="favoritos">
+        <key column="idUsuario"/> 
+        <many-to-many column="idFavorito" class="hibernateModel.Anuncio"/> 
+    </set>
+    
+    <set name="Roles" cascade="save-update" table="tiene_rol">
+        <key column="idUsuario"/> 
+        <many-to-many column="idRol" class="hibernateModel.Rol"/> 
+    </set>
+        
+    <set fetch="select" inverse="true" lazy="true" name="anuncios" table="anuncio">
+      <key>
+        <column name="idPropietario" not-null="true"/>
+      </key>
+      <one-to-many class="hibernateModel.Anuncio"/>
+    </set>
+    
+    <set fetch="select" inverse="true" lazy="true" name="ChatsHaciaAnuncios" table="chat">
+      <key>
+        <column name="idUuarioInteresado" not-null="true"/>
+      </key>
+      <one-to-many class="hibernateModel.Chat"/>
+    </set>
+    <set fetch="select" inverse="true" lazy="true" name="ChatsMisProductos" table="chat">
+      <key>
+        <column name="idPropietario" not-null="true"/>
+      </key>
+      <one-to-many class="hibernateModel.Chat"/>
+    </set>
+    <set fetch="select" inverse="true" lazy="true" name="valoraciones" table="valoracion">
+      <key>
+        <column name="idUsuario" not-null="true"/>
+      </key>
+      <one-to-many class="hibernateModel.Valoracion"/>
+    </set>
+  </class>
+</hibernate-mapping>

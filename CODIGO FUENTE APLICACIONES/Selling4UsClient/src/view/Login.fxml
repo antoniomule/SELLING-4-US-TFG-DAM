@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="837.0" style="-fx-background-color: FFC9A9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <AnchorPane prefHeight="548.0" prefWidth="186.0" style="-fx-background-color: #d4efed;">
+         <children>
+            <Text layoutX="29.0" layoutY="503.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aplicacion para Administradores y modereadores" wrappingWidth="186.39999999999986" />
+            <ImageView fitHeight="135.0" fitWidth="163.0" layoutX="27.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/image-modified.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label id="EtiquetaUsuario" fx:id="EtiquetaUsuario" layoutX="456.0" layoutY="184.0" text="Nombre de usuario" textFill="#867979">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label id="EtiquetaContraseña" fx:id="EtiquetaContraseña" layoutX="495.0" layoutY="272.0" text="Password" textFill="#867979">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField id="FieldUsuario" fx:id="FieldUsuario" layoutX="448.0" layoutY="218.0" prefHeight="34.0" prefWidth="186.0" promptText="Introduce Usuario..." style="-fx-background-color: ffffff;" />
+      <PasswordField id="FieldPassword" fx:id="FieldPassword" layoutX="448.0" layoutY="311.0" prefHeight="34.0" prefWidth="186.0" promptText="Introduce Contraseña..." style="-fx-background-color: ffffff;" />
+      <FontAwesomeIconView id="InClose" fx:id="InClose" fill="RED" glyphName="CLOSE" layoutX="647.0" layoutY="17.0" onMouseClicked="#handelClose" style="visibility: false;" text="" />
+      <MFXButton id="idButtonLogin" fx:id="idButtonLogin" layoutX="448.0" layoutY="375.0" onMouseClicked="#HandleOnMuseClickedLoginNew" prefHeight="42.0" prefWidth="186.0" style="-fx-background-color: #2f9bdb;" text="LOGIN" />
+      <Label id="EtiquetaVerificar" fx:id="EtiquetaVerificar" layoutX="412.0" layoutY="434.0" prefHeight="17.0" prefWidth="257.0" textFill="RED" />
+      <ImageView fx:id="idImageLoad" fitHeight="63.0" fitWidth="58.0" layoutX="512.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true" style="visibility: false;">
+         <image>
+            <Image url="@../img/cargando.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

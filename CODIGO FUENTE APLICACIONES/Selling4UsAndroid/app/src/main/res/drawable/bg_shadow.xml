@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#6CD0B2" /> <!-- Color de fondo -->
+    <corners android:radius="8dp" /> <!-- Radio de las esquinas -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" /> <!-- Padding para crear el efecto de sombreado -->
+    <stroke
+        android:color="#44000000"
+        android:width="10dp" /> <!-- Color y ancho del borde -->
+</shape>

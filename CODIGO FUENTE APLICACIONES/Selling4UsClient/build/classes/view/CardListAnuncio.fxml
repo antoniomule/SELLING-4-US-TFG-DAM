@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="511.0" prefWidth="711.0" style="-fx-background-color: #d4eed7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CardListAnuncioController">
+   <children>
+      <ImageView fx:id="idImagen" fitHeight="374.0" fitWidth="429.0" layoutX="145.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" />
+      <Line endX="462.00006103515625" endY="-3.0517578125E-5" layoutX="249.0" layoutY="374.0" startX="-249.50709533691406" startY="-3.0517578125E-5" />
+      <Label fx:id="idTitulo" layoutX="13.0" layoutY="390.0" text="Label">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="idDescripcion" layoutX="14.0" layoutY="424.0" text="Label">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font></Label>
+      <Label fx:id="idPrecio" layoutX="544.0" layoutY="474.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Text layoutX="597.0" layoutY="489.0" strokeType="OUTSIDE" strokeWidth="0.0" text="€">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+      <Label layoutX="13.0" layoutY="474.0" text="Revision: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label fx:id="idRevision" layoutX="84.0" layoutY="475.0" text="Label" />
+   </children>
+</AnchorPane>

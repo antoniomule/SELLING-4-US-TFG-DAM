@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXDatePicker?>
+<?import io.github.palexdev.materialfx.controls.legacy.MFXLegacyComboBox?>
+<?import io.github.palexdev.materialfx.controls.legacy.MFXLegacyListView?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="805.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Pane fx:id="idGenerarContraseña" layoutY="-9.0" prefHeight="472.0" prefWidth="805.0" style="-fx-background-color: #d4efed;">
+         <children>
+            <Pane layoutY="1.0" prefHeight="470.0" prefWidth="168.0" style="-fx-background-color: FFC9A9;">
+               <children>
+                  <ImageView fitHeight="60.0" fitWidth="103.0" layoutX="48.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/image-modified.png" />
+                     </image>
+                  </ImageView>
+                  <MFXButton id="idButtonPerfil" fx:id="idButtonPerfil" layoutY="65.0" onMouseClicked="#OnMouseClickedButtonPerfil" prefHeight="27.0" prefWidth="168.0" style="-fx-background-color: F08080; -fx-border-color: FF5E00;" text="Perfil" />
+                  <Line endX="628.5000610351562" layoutX="67.0" layoutY="65.0" startX="-67.00001525878906" startY="-7.62939453125E-6" stroke="LIGHTCORAL" />
+                  <Label id="EtiquetaContraseña" fx:id="EtiquetaContraseña" layoutX="14.0" layoutY="357.0" text="BIENVENIDO!" textFill="#867979" />
+                  <Text id="idNombreText" fx:id="idNombreText" fill="#867979" layoutX="50.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nombre" />
+                  <MFXButton id="idButtonAñadirModerador" fx:id="idButtonAñadirModerador" layoutY="98.0" onMouseClicked="#OnMouseClickedButtonAñadirModerador" prefHeight="27.0" prefWidth="168.0" style="-fx-background-color: F08080; -fx-border-color: FF5E00;" text="Añadir moderador" />
+                  <MFXButton id="idAñadirRestriccion" fx:id="idAñadirRestriccion" layoutY="166.0" onMouseClicked="#OnMouseClickedAñadirRestricción" prefHeight="27.0" prefWidth="168.0" style="-fx-background-color: F08080; -fx-border-color: FF5E00;" text="Añadir Restricción" />
+                  <MFXButton id="idButtonListarModeradores" fx:id="idButtonListarModeradores" layoutY="132.0" onMouseClicked="#OnMouseClickedButtonListarModeradores" prefHeight="27.0" prefWidth="168.0" style="-fx-background-color: F08080; -fx-border-color: FF5E00;" text="Lista Moderadores" />
+                  <ImageView fx:id="idLogout" fitHeight="44.0" fitWidth="42.0" layoutX="3.0" layoutY="421.0" onMouseClicked="#OnMouseClickedLogout" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/logout.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="idPanePerfil" layoutX="169.0" layoutY="62.0" prefHeight="399.0" prefWidth="634.0" style="visibility: false;" />
+            <Pane fx:id="idPaneAñadirModerador" layoutX="168.0" layoutY="66.0" prefHeight="405.0" prefWidth="640.0" style="visibility: false;">
+               <children>
+                  <Label layoutX="35.0" layoutY="67.0" text="Nombre de Moderador:" textFill="LIGHTCORAL">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="35.0" layoutY="116.0" text="Contraseña de Moderador:" textFill="LIGHTCORAL">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="33.0" layoutY="296.0" text="Categoría especialidad:" textFill="LIGHTCORAL">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <MFXButton id="idAñadirRestriccion" fx:id="idAñadirRestriccionTotal" layoutX="445.0" layoutY="331.0" onMouseClicked="#OnMouseClickedAñadirModerador" prefHeight="60.0" prefWidth="181.0" style="-fx-background-color: F08080; -fx-border-color: FF5E00;" text="AÑADIR" />
+                  <FontAwesomeIconView fill="LIGHTCORAL" layoutX="5.0" layoutY="81.0" selectionFill="LIGHTCORAL" text="" />
+                  <FontAwesomeIconView fill="LIGHTCORAL" layoutX="3.0" layoutY="130.0" selectionFill="LIGHTCORAL" text="" />
+                  <FontAwesomeIconView fill="LIGHTCORAL" layoutX="3.0" layoutY="310.0" selectionFill="LIGHTCORAL" text="" />
+                  <PasswordField fx:id="idLabelPassword" layoutX="275.0" layoutY="112.0" />
+                  <ComboBox fx:id="idComboBoxCategorías" layoutX="275.0" layoutY="293.0" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #FFFFFF;" />
+                  <TextField fx:id="idTextFieldNombre" layoutX="274.0" layoutY="63.0" prefHeight="25.0" prefWidth="149.0" />
+                  <MFXButton id="idAñadirRestriccion" fx:id="idAñadirRestriccionTotal1" layoutX="452.0" layoutY="111.0" onMouseClicked="#OnMouseClickedGenerarContraseña" prefHeight="27.0" prefWidth="127.0" style="-fx-background-color: F08080; -fx-border-color: FF5E00;" text="Genear Contraseña" />
+                  <Label layoutX="33.0" layoutY="172.0" text="Fecha Nacimiento:" textFill="LIGHTCORAL">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIconView fill="LIGHTCORAL" layoutX="3.0" layoutY="186.0" selectionFill="LIGHTCORAL" text="" />
+                  <MFXDatePicker fx:id="idDatePicker" layoutX="274.0" layoutY="163.0" prefHeight="35.0" prefWidth="149.0" />
+                  <Label layoutX="33.0" layoutY="222.0" text="Ciudad de residencia:" textFill="LIGHTCORAL">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIconView fill="LIGHTCORAL" layoutX="3.0" layoutY="236.0" selectionFill="LIGHTCORAL" text="" />
+                  <ComboBox fx:id="idComboBoxCiudades" layoutX="275.0" layoutY="225.0" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #FFFFFF;" />
+               </children>
+            </Pane>
+            <Pane fx:id="idPaneListaModeradores" layoutX="170.0" layoutY="70.0" prefHeight="405.0" prefWidth="640.0" style="visibility: false;">
+               <children>
+                  <MFXLegacyListView id="idLegacyListView" fx:id="idLegacyListView" fixedCellSize="0.0" layoutX="1.0" layoutY="-1.0" prefHeight="405.0" prefWidth="640.0" style="-fx-background-color: #d4efed; -fx-border-color: #d4efed;">
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </MFXLegacyListView>
+               </children></Pane>
+            <FontAwesomeIconView id="InClose" fx:id="InClose" fill="RED" glyphName="CLOSE" layoutX="786.0" layoutY="30.0" onMouseClicked="#handelClose" style="visibility: false;" text="" />
+            <Label fx:id="idLabelCabecera" layoutX="176.0" layoutY="26.0" text="Perfil" textFill="LIGHTCORAL">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Pane fx:id="idPaneRestricciones" layoutX="165.0" layoutY="66.0" prefHeight="405.0" prefWidth="648.0" style="visibility: false;">
+               <children>
+                  <MFXLegacyListView fx:id="idListViewRestriccion" hideScrollBars="true" layoutX="301.0" layoutY="30.0" prefHeight="150.0" prefWidth="333.0" style="visibility: true; -fx-background-color: transparent;" />
+                  <Label fx:id="idLabelCabecera1" layoutX="14.0" layoutY="30.0" text="Tipos de restricciones" textFill="LIGHTCORAL">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="idLabelCabecera11" layoutX="238.0" layoutY="30.0" text="Restricción" textFill="LIGHTCORAL">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <MFXLegacyComboBox fx:id="idComboBoxTipos" layoutX="63.0" layoutY="93.0" onAction="#handleSelectTipo" onMouseClicked="#OnMouseClickTipos" prefHeight="23.0" prefWidth="149.0" promptText="Tipos" />
+                  <TextField fx:id="idTextFieldTipo" disable="true" layoutX="63.0" layoutY="223.0" />
+                  <Label fx:id="idLabelCabecera12" layoutX="63.0" layoutY="191.0" text="Tipo" textFill="LIGHTCORAL">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="idTextFieldRestriccion" layoutX="230.0" layoutY="223.0" prefHeight="25.0" prefWidth="311.0" />
+                  <Label fx:id="idLabelCabecera121" layoutX="230.0" layoutY="191.0" text="Nueva Restricción" textFill="LIGHTCORAL">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <MFXButton id="idAñadirRestriccion" fx:id="idAñadirRestriccion" layoutX="170.0" layoutY="305.0" onMouseClicked="#OnMouseClickedAñadirRestriccion" prefHeight="38.0" prefWidth="149.0" style="-fx-background-color: F08080; -fx-border-color: FF5E00;" text="AÑADIR RESTRICCIÓN" />
+                  <Label fx:id="idLabelDebesDarValor" layoutX="324.0" layoutY="324.0" style="visibility: false;" text="*Debes dar valor a ambos campos" textFill="#f70000" />
+                  <Text layoutX="219.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-" />
+               </children></Pane>
+         </children>
+      </Pane>
+   </children>
+</Pane>

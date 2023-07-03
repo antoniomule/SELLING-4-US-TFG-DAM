@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 31-may-2023 18:36:27 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="hibernateModel.Oferta" table="oferta" catalog="selling4us" optimistic-lock="version">
+        <id name="idOferta" type="java.lang.Integer">
+            <column name="idOferta" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="anuncio" class="hibernateModel.Anuncio" fetch="select">
+            <column name="idAnuncio" not-null="true" />
+        </many-to-one>
+        <many-to-one name="usuario" class="hibernateModel.Usuario" fetch="select">
+            <column name="idUsuario" not-null="true" />
+        </many-to-one>
+        <property name="precioOferta" type="big_decimal">
+            <column name="precio_oferta" precision="10" not-null="true" />
+        </property>
+        <property name="revisado" type="boolean">
+      <column name="revisado" not-null="true"/>
+    </property>
+    </class>
+</hibernate-mapping>

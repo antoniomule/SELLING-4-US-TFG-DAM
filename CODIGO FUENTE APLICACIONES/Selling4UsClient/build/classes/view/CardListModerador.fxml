@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane prefHeight="114.0" prefWidth="600.0" style="-fx-background-color: FFC9A9; -fx-border-color: FF5E00;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CardListModeradorController">
+   <children>
+      <Label fx:id="idLabelNombre" layoutX="28.0" layoutY="21.0" text="Nombre" />
+      <Label fx:id="idLabelLocalidad" layoutX="24.0" layoutY="49.0" text="Localidad" />
+      <Label fx:id="idLabelCategoria" layoutX="23.0" layoutY="73.0" text="Categoria" />
+      <MFXButton fx:id="idButtonEliminar" layoutX="448.0" layoutY="45.0" onMouseClicked="#OnMouseClicked_ButtonEliminar" style="-fx-background-color: FF1E00;" text="Eliminar" />
+      <Label fx:id="idNombreModerador" layoutX="95.0" layoutY="21.0" text="Nombre" />
+      <Label fx:id="idLocalidadModerador" layoutX="91.0" layoutY="49.0" text="Localidad" />
+      <Label fx:id="idCategoriaModerador" layoutX="91.0" layoutY="73.0" text="Categoria" />
+      <Pane fx:id="idPaneUsuarioEliminado" layoutX="40.0" layoutY="21.0" prefHeight="74.0" prefWidth="534.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Text fill="RED" layoutX="166.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MODERADOR ELIMINADO">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</Pane>

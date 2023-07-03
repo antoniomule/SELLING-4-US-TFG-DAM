@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 03-abr-2023 13:06:51 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="selling4us" name="hibernateModel.Mensaje" optimistic-lock="version" table="mensaje">
+    <id name="idMensaje" type="java.lang.Integer">
+      <column name="idMensaje"/>
+      <generator class="identity"/>
+    </id>
+    <many-to-one class="hibernateModel.Chat" fetch="select" name="chat">
+      <column name="idChat" not-null="true"/>
+    </many-to-one>
+    <many-to-one class="hibernateModel.Usuario" fetch="select" name="usuarioByIdRemitente">
+      <column name="idRemitente" not-null="true"/>
+    </many-to-one>
+    <many-to-one class="hibernateModel.Usuario" fetch="select" name="usuarioByIdDestinatario">
+      <column name="idDestinatario" not-null="true"/>
+    </many-to-one>
+    <property name="mensaje" type="string">
+      <column length="50" name="mensaje" not-null="true"/>
+    </property>
+    <property name="fechaHora" type="timestamp">
+      <column length="19" name="fecha_hora" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/frame_content"
+    android:orientation="vertical"
+    android:background="#20c7ab">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="371dp"
+        android:layout_height="182dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo" />
+
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/bg_rounded_categoria"
+            android:hint="Usuario"
+            android:inputType="text"
+            android:padding="12dp"
+             />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/fechaText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rounded_categoria"
+                android:hint="Fecha"
+                android:inputType="none"
+                android:focusable="false"
+                android:padding="12dp"
+                 />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="187dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnDatePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Seleccionar Fecha" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/direccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_rounded_categoria"
+                android:hint="Direccion"
+                android:inputType="none"
+                android:focusable="false"
+                android:padding="12dp"
+                 />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="187dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btndireccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:onClick="onDatePickerClick"
+                android:text="Seleccionar Ubicacion" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_rounded_categoria"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="12dp"
+             />
+        <EditText
+            android:id="@+id/etPasswordRepeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_rounded_categoria"
+            android:hint="Confirmar Contraseña"
+            android:inputType="textPassword"
+            android:padding="12dp"
+             />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="32dp"
+            android:text="Registrarse"
+            android:textColor="#FFFFFF"
+            android:onClick="onButtonClickRegistro" />
+
+</LinearLayout>

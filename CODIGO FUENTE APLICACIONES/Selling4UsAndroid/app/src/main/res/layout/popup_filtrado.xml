@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_shadow"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/popup_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FILTRADO DE BÚSQUEDA"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:paddingBottom="16dp" />
+
+    <ImageButton
+        android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/close"
+        android:layout_alignParentEnd="true"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <EditText
+        android:id="@+id/product_name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del producto"
+        android:padding="8dp"
+        android:layout_below="@id/popup_title_textview"
+        android:background="@drawable/bg_rounded_search"
+        android:layout_marginBottom="16dp"/>
+
+    <RelativeLayout
+        android:id="@+id/range_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_name_edittext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/range_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RANGO: "
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/range_label"
+            android:inputType="number"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="MIN" />
+
+        <TextView
+            android:id="@+id/barrita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/min"
+            android:text="-"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp" />
+
+        <EditText
+            android:id="@+id/max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/barrita"
+            android:inputType="number"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/edittext_bg"
+            android:hint="MAX" />
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/max"
+            android:text="*Pueders dejar valores en blanco por defecto"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relative"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/range_layout"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/text_ordenadorpor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Orden de precio: "
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginStart="8dp" />
+
+        <ToggleButton
+            android:id="@+id/ascending_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginStart="10dp"
+            android:textOff="Descendente"
+            android:textOn="Ascendente" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/comboLinear"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/text_tipiCategoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categoria: "
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginStart="8dp" />
+        <Spinner
+            android:id="@+id/category_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/open_map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir mapa"
+        android:layout_below="@id/comboLinear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/holo_blue_light"/>
+
+    <Button
+        android:id="@+id/filter_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filtrar"
+        android:layout_below="@id/open_map_button"
+        android:backgroundTint="@android:color/holo_blue_light" />
+
+</RelativeLayout>

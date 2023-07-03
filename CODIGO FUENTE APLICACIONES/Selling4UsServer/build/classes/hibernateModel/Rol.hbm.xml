@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 03-abr-2023 13:06:51 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="selling4us" name="hibernateModel.Rol" optimistic-lock="version" table="rol">
+    <id name="idRol" type="java.lang.Integer">
+      <column name="idRol"/>
+      <generator class="identity"/>
+    </id>
+    <property name="tipoRol" type="string">
+      <column length="20" name="TipoRol" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane prefHeight="190.0" prefWidth="409.0" style="-fx-background-color: FFC9A9; -fx-border-color: FF5E00;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ConfirmacionController">
+   <children>
+      <Text layoutX="64.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿ESTÁS SEGURO QUE DESEAS HACER ESTA ACCIÓN?" />
+      <MFXButton fx:id="idButtonSi" layoutX="108.0" layoutY="104.0" onMouseClicked="#OnMouseClicked_SI" style="-fx-background-color: #36FF00;" text="SI" />
+      <MFXButton fx:id="idButtonNo" layoutX="262.0" layoutY="104.0" onMouseClicked="#OnMouseClicked_NO" style="-fx-background-color: FF1E00;" text="NO" />
+      <FontAwesomeIconView id="InClose" fx:id="InClose" fill="RED" glyphName="CLOSE" layoutX="388.0" layoutY="18.0" onMouseClicked="#handelClose" text="" wrappingWidth="13.392578125" />
+   </children>
+</Pane>

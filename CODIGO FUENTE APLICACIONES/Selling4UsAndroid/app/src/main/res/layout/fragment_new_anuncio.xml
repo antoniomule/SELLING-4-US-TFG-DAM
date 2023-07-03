@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/bg_rounded_categoria"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:paddingBottom="16dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/image_anuncio"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/new_photo" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_subir_imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subir Imagen"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/text_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Título"
+            android:background="@drawable/bg_rounded_categoria"
+            android:padding="10dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/text_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"
+            android:background="@drawable/bg_rounded_categoria"
+            android:padding="10dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/text_precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio"
+            android:inputType="number"
+            android:background="@drawable/bg_rounded_categoria"
+            android:padding="10dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/text_estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estado"
+            android:background="@drawable/bg_rounded_categoria"
+            android:padding="10dp"
+            android:layout_marginTop="10dp" />
+
+
+        <Spinner
+            android:id="@+id/combobox_categorias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/text_direccion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_rounded_categoria"
+                    android:hint="Dirección"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="187dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn_obtener_ubicacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Obtener Ubicación" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_subir_anuncio"
+            android:layout_width="196dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Subir Anuncio" />
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

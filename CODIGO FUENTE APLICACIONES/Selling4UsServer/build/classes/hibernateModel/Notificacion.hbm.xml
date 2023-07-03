@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 03-abr-2023 13:06:51 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="selling4us" name="hibernateModel.Notificacion" optimistic-lock="version" table="notificacion">
+    <id name="idNotificacion" type="java.lang.Integer">
+      <column name="idNotificacion"/>
+      <generator class="identity"/>
+    </id>
+    <many-to-one class="hibernateModel.Anuncio" fetch="select" name="anuncio">
+      <column name="idAnuncio" not-null="true"/>
+    </many-to-one>
+    <many-to-one class="hibernateModel.Mensajerestriccion" fetch="select" name="mensajerestriccion">
+      <column name="idMensajeRestriccion" not-null="true"/>
+    </many-to-one>
+    <many-to-one class="hibernateModel.Usuario" fetch="select" name="usuario">
+      <column name="idUsuario" not-null="true"/>
+    </many-to-one>
+    <property name="revisado" type="boolean">
+      <column name="revisado" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>

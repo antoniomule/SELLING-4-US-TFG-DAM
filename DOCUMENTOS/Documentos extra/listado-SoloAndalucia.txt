@@ -1,0 +1,773 @@
+Abla	37,14114	-2,780104
+Abrucena	37,13305	-2,797098
+Adra	36,74807	-3,022522
+Albánchez	37,2871	-2,181163
+Alboloduy	37,03319	-2,62175
+Adra	36,74807	-3,022522
+Albánchez	37,2871	-2,181163
+Alboloduy	37,03319	-2,62175
+Albox	37,38979	-2,147483
+Alcolea	36,97449	-2,961038
+Alcóntar	37,33585	-2,596944
+Alcudia de Monteagud	37,23598	-2,266174
+Alhabia	36,9893	-2,587667
+Alhama de Almería	36,95742	-2,570075
+Alicún	36,9663	-2,601994
+Almería	36,84016	-2,467922
+Almócita	37,00236	-2,790071
+Alsodux	37,002	-2,594579
+Antas	37,24516	-1,917543
+Arboleas	37,35025	-2,074867
+Armuña de Almanzora	37,34969	-2,411396
+Bacares	37,26083	-2,454761
+Bayárcal	37,03116	-2,996469
+Bayarque	37,33091	-2,43566
+Bédar	37,18964	-1,981898
+Beires	37,012	-2,790928
+Benahadux	36,92587	-2,455683
+Benitagla	37,23124	-2,239107
+Benizalón	37,21175	-2,241685
+Bentarique	36,98652	-2,61942
+Berja	36,84644	-2,949425
+Canjáyar	37,00973	-2,739681
+Cantoria	37,35259	-2,193626
+Carboneras	36,99659	-1,895012
+Castro de Filabres	37,18464	-2,439524
+Chercos	37,26633	-2,257897
+Chirivel	37,5956	-2,264839
+Cóbdar	37,26199	-2,210223
+Cuevas del Almanzora	37,29709	-1,881476
+Dalías	36,82121	-2,870697
+Ejido (El)	36,77506	-2,812738
+Enix	36,87704	-2,602107
+Felix	36,86892	-2,657921
+Fiñana	37,17101	-2,840678
+Fines	37,35888	-2,262964
+Fondón	36,97942	-2,858356
+Gádor	36,95393	-2,492936
+Gallardos (Los)	37,16948	-1,940099
+Garrucha	37,17925	-1,821901
+Gérgal	37,1207	-2,538305
+Huécija	36,96788	-2,611436
+Huércal-Overa	37,39063	-1,943684
+Huércal de Almería	36,88415	-2,435978
+Illar	36,98504	-2,639302
+Instinción	36,99316	-2,659945
+Laroya	37,29667	-2,329601
+Láujar de Andarax	36,99384	-2,88922
+Líjar	37,29527	-2,219928
+Lubrín	37,21585	-2,067055
+Lucainena de las Torres	37,04179	-2,200706
+Lúcar	37,39965	-2,427074
+Macael	37,33229	-2,304892
+María	37,7111	-2,165795
+Mojácar	37,13995	-1,851328
+Mojonera (La)	36,75254	-2,688159
+Nacimiento	37,10497	-2,64774
+Níjar	36,96576	-2,20651
+Ohanes	37,03723	-2,745168
+Olula de Castro	37,17611	-2,476297
+Olula del Río	37,35212	-2,298121
+Oria	37,48503	-2,295018
+Padules	36,99884	-2,773482
+Partaloa	37,40604	-2,226434
+Paterna del Río	37,02088	-2,953087
+Pechina	36,91667	-2,440625
+Pulpí	37,41183	-1,745502
+Purchena	37,34855	-2,36155
+Rágol	36,99564	-2,680989
+Rioja	36,94406	-2,462424
+Roquetas de Mar	36,76427	-2,614935
+Santa Cruz de Marchena	37,0172	-2,603768
+Santa Fe de Mondújar	36,97506	-2,530279
+Senés	37,20457	-2,347544
+Serón	37,34361	-2,508077
+Sierro	37,32348	-2,398526
+Somontín	37,39139	-2,389127
+Sorbas	37,09841	-2,126351
+Suflí	37,3382	-2,389523
+Tabernas	37,04945	-2,392681
+Taberno	37,46729	-2,076205
+Tahal	37,22803	-2,28497
+Terque	36,98359	-2,597233
+Tíjola	37,34551	-2,439434
+Tres Villas (Las)	37,13334	-2,7
+Turre	37,15225	-1,894899
+Turrillas	37,03019	-2,264096
+Uleila del Campo	37,18548	-2,203801
+Urrácal	37,39732	-2,36507
+Velefique	37,19375	-2,403687
+Vélez-Blanco	37,69095	-2,095682
+Vélez-Rubio	37,64802	-2,074232
+Vera	37,24686	-1,868238
+Viator	36,88963	-2,426541
+Vícar	36,83145	-2,642515
+Zurgena	37,34265	-2,039607
+Alcalá de los Gazules	36,46045	-5,723718
+Alcalá del Valle	36,90491	-5,173237
+Algar	36,65533	-5,657418
+Algeciras	36,12978	-5,447698
+Algodonales	36,88092	-5,405773
+Arcos de la Frontera	36,75078	-5,812395
+Barbate	36,19282	-5,918903
+Barrios (Los)	36,18539	-5,492747
+Benalup-Casas Viejas	36,34284	-5,8094
+Benaocaz	36,69952	-5,421263
+Bornos	36,81459	-5,743362
+Bosque (El)	36,75752	-5,506988
+Cádiz	36,52969	-6,292657
+Castellar de la Frontera	36,28621	-5,419937
+Chiclana de la Frontera	36,41915	-6,149412
+Chipiona	36,7408	-6,43587
+Conil de la Frontera	36,27675	-6,088436
+Espera	36,87319	-5,806213
+Gastor (El)	36,85509	-5,323623
+Grazalema	36,75837	-5,366071
+Jerez de la Frontera	36,68656	-6,137173
+Jimena de la Frontera	36,43404	-5,453479
+Línea de la Concepción (La)	36,16118	-5,348256
+Medina-Sidonia	36,46768	-5,927894
+Olvera	36,93525	-5,267688
+Paterna de Rivera	36,52333	-5,866053
+Prado del Rey	36,78968	-5,555545
+Puerto de Santa María (El)	36,59695	-6,227526
+Puerto Real	36,52912	-6,191895
+Puerto Serrano	36,92159	-5,545621
+Rota	36,61699	-6,358202
+San Fernando	36,46572	-6,196626
+San José del Valle	36,60554	-5,798952
+San Roque	36,20975	-5,384572
+Sanlúcar de Barrameda	36,77882	-6,354198
+Setenil de las Bodegas	36,86406	-5,181413
+Tarifa	36,01271	-5,602954
+Torre Alháquime	36,91553	-5,234736
+Trebujena	36,86951	-6,176695
+Ubrique	36,67771	-5,446557
+Vejer de la Frontera	36,25331	-5,962856
+Villaluenga del Rosario	36,69587	-5,388137
+Villamartín	36,86132	-5,641834
+Zahara	36,84053	-5,390547
+Adamuz	38,02736	-4,524873
+Aguilar de la Frontera	37,51503	-4,656057
+Alcaracejos	38,38823	-4,967684
+Almedinilla	37,439	-4,091205
+Almodóvar del Río	37,80959	-5,019958
+Añora	38,41099	-4,897461
+Baena	37,61441	-4,326089
+Belalcázar	38,57843	-5,167119
+Belmez	38,27234	-5,208753
+Benamejí	37,26732	-4,540418
+Blázquez (Los)	38,4065	-5,438988
+Bujalance	37,89657	-4,383588
+Cabra	37,47437	-4,425931
+Cañete de las Torres	37,86741	-4,318819
+Carcabuey	37,44359	-4,273436
+Cardeña	38,27047	-4,32373
+Carlota (La)	37,67361	-4,932553
+Carpio (El)	37,94054	-4,498775
+Castro del Río	37,68864	-4,481579
+Conquista	38,40844	-4,500968
+Córdoba	37,88473	-4,779152
+Doña Mencía	37,55457	-4,357603
+Dos Torres	38,44524	-4,894932
+Encinas Reales	37,27488	-4,489717
+Espejo	37,68211	-4,552363
+Espiel	38,18865	-5,018202
+Fernán-Núñez	37,67226	-4,723994
+Fuente-Tójar	37,51163	-4,148019
+Fuente la Lancha	38,42257	-5,048906
+Fuente Obejuna	38,26675	-5,419834
+Fuente Palmera	37,70319	-5,103904
+Granjuela (La)	38,3711	-5,351436
+Guadalcázar	37,75755	-4,94463
+Guijo (El)	38,49629	-4,782716
+Hinojosa del Duque	38,50099	-5,148333
+Hornachuelos	37,83084	-5,242984
+Iznájar	37,25726	-4,308423
+Lucena	37,40873	-4,485598
+Luque	37,55932	-4,276523
+Montalbán de Córdoba	37,58292	-4,749699
+Montemayor	37,64862	-4,698889
+Montilla	37,58963	-4,638313
+Montoro	38,02617	-4,381874
+Monturque	37,47332	-4,581713
+Moriles	37,43526	-4,608767
+Nueva Carteya	37,58566	-4,467291
+Obejo	38,13433	-4,800506
+Palenciana	37,2492	-4,583651
+Palma del Río	37,70163	-5,283767
+Pedro Abad	37,96708	-4,457226
+Pedroche	38,42873	-4,763438
+Peñarroya-Pueblonuevo	38,30304	-5,272851
+Posadas	37,80041	-5,107038
+Pozoblanco	38,37742	-4,848376
+Priego de Córdoba	37,4389	-4,194839
+Puente Genil	37,39051	-4,770465
+Rambla (La)	37,60816	-4,741319
+Rute	37,32587	-4,371301
+San Sebastián de los Ballesteros	37,65493	-4,824157
+Santa Eufemia	38,59544	-4,902765
+Santaella	37,56627	-4,845094
+Torrecampo	38,4751	-4,679456
+Valenzuela	37,77508	-4,219841
+Valsequillo	38,40498	-5,35168
+Victoria (La)	37,88327	-4,784959
+Villa del Río	37,98227	-4,290878
+Villafranca de Córdoba	37,96193	-4,545728
+Villaharta	38,13951	-4,903052
+Villanueva de Córdoba	38,32279	-4,628341
+Villanueva del Duque	38,39297	-5,000132
+Villanueva del Rey	38,19965	-5,151443
+Villaralto	38,45571	-4,984371
+Villaviciosa de Córdoba	38,07598	-5,014214
+Viso (El)	38,4827	-4,955392
+Zuheros	37,54314	-4,316415
+Agrón	37,03058	-3,829724
+Alamedilla	37,58174	-3,244309
+Albolote	37,23085	-3,657415
+Albondón	36,82729	-3,210813
+Albuñán	37,22719	-3,133893
+Albuñol	36,79125	-3,203485
+Albuñuelas	36,9282	-3,631472
+Aldeire	37,16264	-3,072488
+Alfacar	37,23657	-3,570654
+Algarinejo	37,32492	-4,158846
+Alhama de Granada	37,00252	-3,988389
+Alhendín	37,1076	-3,645584
+Alicún de Ortega	37,60968	-3,137986
+Almegíjar	36,90245	-3,299801
+Almuñécar	36,73454	-3,690736
+Alpujarra de la Sierra	36,9815	-3,157129
+Alquife	37,17983	-3,116288
+Arenas del Rey	36,95771	-3,894323
+Armilla	37,1401	-3,617981
+Atarfe	37,2229	-3,687416
+Baza	37,49065	-2,774473
+Beas de Granada	37,21916	-3,481737
+Beas de Guadix	37,2794	-3,205976
+Benalúa	37,3503	-3,16904
+Benalúa de las Villas	37,42758	-3,683473
+Benamaurel	37,60913	-2,699214
+Bérchules	36,97672	-3,190379
+Bubión	36,94883	-3,356741
+Busquístar	36,93771	-3,294846
+Cacín	37,05995	-3,91689
+Cádiar	36,94673	-3,180546
+Cájar	37,13422	-3,570618
+Calahorra (La)	37,18137	-3,064513
+Calicasas	37,27329	-3,6182
+Campotéjar	37,48131	-3,616497
+Cáñar	36,92661	-3,428235
+Caniles	37,43626	-2,722401
+Capileira	36,96122	-3,358654
+Carataunas	36,92287	-3,408202
+Cástaras	36,93169	-3,253733
+Castilléjar	37,7147	-2,642967
+Castril	37,79573	-2,779088
+Cenes de la Vega	37,15931	-3,537524
+Chauchina	37,20142	-3,77254
+Chimeneas	37,13137	-3,823198
+Churriana de la Vega	37,14777	-3,64595
+Cijuela	37,19989	-3,810801
+Cogollos de Guadix	37,22443	-3,161336
+Cogollos de la Vega	37,27486	-3,572908
+Colomera	37,37206	-3,71382
+Cortes de Baza	37,65493	-2,769917
+Cortes y Graena	37,30363	-3,218777
+Cuevas del Campo	37,60847	-2,931033
+Cúllar	37,58368	-2,576282
+Cúllar Vega	37,15327	-3,670436
+Darro	37,35002	-3,292531
+Dehesas de Guadix	37,58868	-3,102278
+Deifontes	37,32524	-3,594484
+Diezma	37,32085	-3,331664
+Dílar	37,07499	-3,601624
+Dólar	37,18004	-2,989589
+Dúdar	37,18567	-3,484442
+Dúrcal	36,98793	-3,56616
+Escúzar	37,06251	-3,761499
+Ferreira	37,17229	-3,036083
+Fonelas	37,41344	-3,173344
+Freila	37,52869	-2,906795
+Fuente Vaqueros	37,21957	-3,783053
+Gabias (Las)	37,135	-3,698333
+Galera	37,74289	-2,551193
+Gobernador	37,47737	-3,320455
+Gójar	37,10443	-3,606203
+Gor	37,36952	-2,969444
+Gorafe	37,47902	-3,044275
+Granada	37,17649	-3,597929
+Guadahortuna	37,55655	-3,400713
+Guadix	37,3004	-3,134583
+Guajares (Los)	36,84568	-3,61165
+Gualchos	36,74357	-3,389869
+Güejar Sierra	37,15992	-3,438619
+Güevéjar	37,25698	-3,597678
+Huélago	37,4198	-3,260146
+Huéneja	37,17693	-2,948596
+Huéscar	37,80949	-2,539663
+Huétor de Santillán	37,21823	-3,517399
+Huétor Tájar	37,19463	-4,047139
+Huétor Vega	37,15238	-3,575904
+Illora	37,28843	-3,879782
+Itrabo	36,79948	-3,638711
+Iznalloz	37,3927	-3,527549
+Jayena	36,94883	-3,822807
+Jerez del Marquesado	37,18385	-3,159872
+Jete	36,79732	-3,668151
+Jun	37,22064	-3,59443
+Juviles	36,94825	-3,225788
+Láchar	37,19508	-3,834064
+Lanjarón	36,91806	-3,480488
+Lanteira	37,1689	-3,138551
+Lecrín	36,9477	-3,550382
+Lentegí	36,8343	-3,674449
+Lobras	36,92786	-3,212306
+Loja	37,16884	-4,151471
+Lugros	37,23069	-3,240909
+Lújar	36,78755	-3,401651
+Malahá (La)	37,10146	-3,722502
+Maracena	37,20568	-3,636805
+Marchal	37,2962	-3,202323
+Moclín	37,34158	-3,786422
+Molvízar	36,78689	-3,607518
+Monachil	37,13209	-3,539469
+Montefrío	37,32097	-4,011364
+Montejícar	37,57196	-3,5047
+Montillana	37,50127	-3,672423
+Moraleda de Zafayona	37,16977	-3,965147
+Morelábor	37,43111	-3,310278
+Motril	36,74467	-3,516718
+Murtas	36,88737	-3,108971
+Nevada	37	-3,016667
+Nigüelas	36,97741	-3,539319
+Nívar	37,25794	-3,577918
+Ogíjares	37,11991	-3,607937
+Orce	37,72141	-2,479451
+Órgiva	36,90224	-3,42399
+Otívar	36,81491	-3,681497
+Otura	37,09431	-3,635073
+Padul	37,02432	-3,626719
+Pampaneira	36,94004	-3,361339
+Pedro Martínez	37,50168	-3,230659
+Peligros	37,23122	-3,629415
+Peza (La)	37,2756	-3,284761
+Píñar	37,44337	-3,439418
+Pinar (El)	37,44337	-3,439418
+Pinos Genil	37,16339	-3,502635
+Pinos Puente	37,25146	-3,750995
+Polícar	37,25764	-3,232102
+Polopos	36,79553	-3,297135
+Pórtugos	36,94241	-3,310386
+Puebla de Don Fadrique	37,9579	-2,43508
+Pulianas	37,22264	-3,608163
+Purullena	37,31759	-3,190274
+Quéntar	37,19201	-3,468192
+Rubite	36,80884	-3,348044
+Salar	37,14882	-4,067732
+Salobreña	36,74626	-3,587108
+Santa Cruz del Comercio	37,06024	-3,976717
+Santa Fe	37,18936	-3,719076
+Soportújar	36,92839	-3,405133
+Sorvilán	36,79442	-3,267524
+Taha (La)	36,93333	-3,316667
+Torre-Cardela	37,50457	-3,356015
+Torvizcón	36,87788	-3,298552
+Trevélez	37,00245	-3,266871
+Turón	36,86357	-3,057771
+Ugíjar	36,96075	-3,054754
+Valle (El)	37,28611	-3,008889
+Valle del Zalabí	37,28611	-3,008889
+Válor	36,99589	-3,083123
+Vegas del Genil	37,16667	-3,7
+Vélez de Benaudalla	36,83195	-3,516209
+Ventas de Huelma	37,06853	-3,822133
+Villamena	36,99035	-3,588935
+Villanueva de las Torres	37,55663	-3,090193
+Villanueva Mesía	37,2142	-4,011248
+Víznar	37,23108	-3,553835
+Zafarraya	36,97551	-4,144421
+Zagra	37,25303	-4,168132
+Zubia (La)	37,12061	-3,584668
+Zújar	37,54015	-2,842817
+Alájar	37,87439	-6,666078
+Aljaraque	37,27111	-7,021585
+Almendro (El)	37,50693	-7,270019
+Almonaster la Real	37,87181	-6,787901
+Almonte	37,26254	-6,51724
+Alosno	37,54936	-7,115428
+Aracena	37,89417	-6,561207
+Aroche	37,94426	-6,954265
+Arroyomolinos de León	38,02604	-6,421104
+Ayamonte	37,21466	-7,409819
+Beas	37,42592	-6,792988
+Berrocal	38	-6,883333
+Bollullos Par del Condado	37,33615	-6,535758
+Bonares	37,3219	-6,680697
+Cabezas Rubias	37,7265	-7,087451
+Cala	37,97217	-6,31649
+Calañas	37,65482	-6,878683
+Campillo (El)	37,69332	-6,630814
+Campofrío	37,76776	-6,573099
+Cañaveral de León	38,01454	-6,527808
+Cartaya	37,28314	-7,154979
+Castaño del Robledo	37,8951	-6,703943
+Cerro de Andévalo (El)	37,73519	-6,938734
+Chucena	37,36157	-6,393946
+Corteconcepción	37,89585	-6,505878
+Cortegana	37,90937	-6,820616
+Cortelazor	37,93554	-6,624768
+Cumbres de Enmedio	38,07224	-6,692877
+Cumbres de San Bartolomé	38,07691	-6,743336
+Cumbres Mayores	38,0637	-6,647074
+Encinasola	38,13522	-6,872141
+Escacena del Campo	37,41033	-6,389561
+Fuenteheridos	37,90327	-6,660661
+Galaroza	37,92757	-6,709221
+Gibraleón	37,37495	-6,970141
+Granada de Río-Tinto (La)	37,23156	-6,91823
+Granado (El)	37,26469	-6,926992
+Higuera de la Sierra	37,83819	-6,447579
+Hinojales	38,00843	-6,589147
+Hinojos	37,29273	-6,376253
+Huelva	37,2571	-6,949555
+Isla Cristina	37,19943	-7,325246
+Jabugo	37,91671	-6,729078
+Lepe	37,25432	-7,203348
+Linares de la Sierra	37,88009	-6,621002
+Lucena del Puerto	37,30394	-6,730086
+Manzanilla	37,38773	-6,429422
+Marines (Los)	37,90303	-6,62332
+Minas de Riotinto	37,69391	-6,591848
+Moguer	37,27469	-6,836591
+Nava (La)	37,96342	-6,745746
+Nerva	37,69511	-6,550632
+Niebla	37,3601	-6,6792
+Palma del Condado (La)	37,38784	-6,5534
+Palos de la Frontera	37,2282	-6,893426
+Paterna del Campo	37,42096	-6,401431
+Paymogo	37,74063	-7,345994
+Puebla de Guzmán	37,61144	-7,245831
+Puerto Moral	37,89208	-6,47877
+Punta Umbría	37,18248	-6,967148
+Rociana del Condado	37,30781	-6,598672
+Rosal de la Frontera	37,9678	-7,220527
+San Bartolomé de la Torre	37,44596	-7,106683
+San Juan del Puerto	37,31416	-6,840784
+San Silvestre de Guzmán	37,3884	-7,350305
+Sanlúcar de Guadiana	37,47318	-7,467861
+Santa Ana la Real	37,86396	-6,724445
+Santa Bárbara de Casa	37,79655	-7,188633
+Santa Olalla del Cala	37,90651	-6,229617
+Trigueros	37,38319	-6,833752
+Valdelarco	37,95044	-6,683222
+Valverde del Camino	37,57339	-6,753376
+Villablanca	37,30373	-7,341905
+Villalba del Alcor	37,39729	-6,476595
+Villanueva de las Cruces	37,62762	-7,024521
+Villanueva de los Castillejos	37,50046	-7,272443
+Villarrasa	37,38945	-6,606914
+Zalamea la Real	37,67891	-6,660578
+Zufre	37,83384	-6,338613
+Albanchez de Mágina	37,79165	-3,468285
+Alcalá la Real	37,46358	-3,925078
+Alcaudete	37,59106	-4,086735
+Aldeaquemada	38,41182	-3,371774
+Andújar	38,03675	-4,054391
+Arjona	37,93648	-4,054891
+Arjonilla	37,97355	-4,107027
+Arquillos	38,18201	-3,430886
+Arroyo del Ojanco	38,32092	-2,894979
+Baeza	37,99343	-3,469237
+Bailén	38,09588	-3,774859
+Baños de la Encina	38,17133	-3,774258
+Beas de Segura	38,25238	-2,889883
+Bedmar y Garcíez	37,82271	-3,411761
+Begíjar	37,98452	-3,53483
+Bélmez de la Moraleda	37,7239	-3,38222
+Benatae	38,35257	-2,650866
+Cabra del Santo Cristo	37,70535	-3,286108
+Cambil	37,67691	-3,565627
+Campillo de Arenas	37,55593	-3,635789
+Canena	38,04868	-3,482172
+Carboneros	38,22952	-3,631522
+Cárcheles	37,6533	-3,635799
+Carolina (La)	38,27468	-3,615412
+Castellar	38,25621	-3,131925
+Castillo de Locubín	37,52826	-3,943678
+Cazalilla	37,9846	-3,882231
+Cazorla	37,91055	-3,002167
+Chiclana de Segura	38,31147	-3,042188
+Chilluévar	38,00106	-3,031099
+Escañuela	37,87872	-4,033281
+Espelúy	38,03308	-3,861802
+Frailes	37,48515	-3,838214
+Fuensanta de Martos	37,64784	-3,906
+Fuerte del Rey	37,87396	-3,884589
+Génave	38,43014	-2,732766
+Guardia de Jaén (La)	37,74164	-3,692717
+Guarromán	38,18151	-3,686501
+Higuera de Calatrava	37,7969	-4,154945
+Hinojares	37,71555	-2,999204
+Hornos	38,21679	-2,720247
+Huelma	37,64524	-3,455428
+Huesa	37,76411	-3,078167
+Ibros	38,02261	-3,502375
+Iruela (La)	37,92038	-2,993985
+Iznatoraf	38,15744	-3,032914
+Jabalquinto	38,01932	-3,724704
+Jaén	37,76574	-3,789518
+Jamilena	37,74709	-3,912299
+Jimena	37,84158	-3,476529
+Jódar	37,84398	-3,352545
+Lahiguera	37,97049	-3,989164
+Larva	37,75892	-3,20015
+Linares	38,09362	-3,635844
+Lopera	37,94367	-4,214694
+Lupión	37,99656	-3,546936
+Mancha Real	37,78617	-3,612393
+Marmolejo	38,04433	-4,170608
+Martos	37,72278	-3,966259
+Mengíbar	37,96833	-3,808806
+Montizón	38,34243	-3,103404
+Navas de San Juan	38,18464	-3,315369
+Noalejo	37,52939	-3,653675
+Orcera	38,31738	-2,664912
+Peal de Becerro	37,91332	-3,121655
+Pegalajar	37,73797	-3,651098
+Porcuna	37,87086	-4,184721
+Pozo Alcón	37,70512	-2,93436
+Puente de Génave	38,35323	-2,804408
+Puerta de Segura (La)	38,34861	-2,737147
+Quesada	37,8451	-3,067591
+Rus	38,04807	-3,462054
+Sabiote	38,06915	-3,306595
+Santa Elena	38,33911	-3,539236
+Santiago-Pontones	38,1	-2,55
+Santiago de Calatrava	37,75299	-4,169107
+Santisteban del Puerto	38,24746	-3,206428
+Santo Tomé	38,02818	-3,101844
+Segura de la Sierra	38,29776	-2,651513
+Siles	38,38734	-2,58131
+Sorihuela del Guadalimar	38,23954	-3,054152
+Torre del Campo	37,77657	-3,895521
+Torreblascopedro	37,99618	-3,638916
+Torredonjimeno	37,76543	-3,959263
+Torreperogil	38,0345	-3,287597
+Torres	37,78608	-3,510031
+Torres de Albánchez	38,41451	-2,677051
+Úbeda	38,00809	-3,368519
+Valdepeñas de Jaén	37,59034	-3,819645
+Vilches	38,20467	-3,507662
+Villacarrillo	38,11541	-3,087194
+Villanueva de la Reina	38,00499	-3,919512
+Villanueva del Arzobispo	38,16934	-3,010099
+Villardompardo	37,83969	-4,001286
+Villares (Los)	37,68932	-3,81857
+Villarrodrigo	38,48793	-2,636272
+Villatorres	37,9313	-3,692753
+Alameda	37,20783	-4,658073
+Alcaucín	36,90263	-4,114147
+Alfarnate	36,99511	-4,260656
+Alfarnatejo	36,97935	-4,272528
+Algarrobo	36,77216	-4,039314
+Algatocín	36,57289	-5,276559
+Alhaurín de la Torre	36,66836	-4,552967
+Alhaurín el Grande	36,64186	-4,691447
+Almáchar	36,80859	-4,217409
+Almargen	37,00392	-5,021193
+Almogía	36,82528	-4,540719
+Álora	36,82264	-4,706715
+Alozaina	36,72768	-4,85646
+Alpandeire	36,63317	-5,202244
+Antequera	37,01938	-4,562885
+Árchez	36,83739	-3,990186
+Archidona	37,09481	-4,387545
+Ardales	36,87798	-4,846642
+Arenas	36,81469	-4,043716
+Arriate	36,79936	-5,140064
+Atajate	36,63999	-5,245177
+Benadalid	36,60577	-5,268939
+Benahavís	36,52446	-5,046305
+Benalauría	36,59402	-5,261163
+Benalmádena	36,59523	-4,573368
+Benamargosa	36,83208	-4,19239
+Benamocarra	36,7912	-4,159968
+Benaoján	36,71874	-5,25315
+Benarrabá	36,55169	-5,276832
+Borge (El)	36,81446	-4,23489
+Burgo (El)	36,78993	-4,946407
+Campillos	37,04541	-4,861525
+Cañete la Real	36,95146	-5,024308
+Canillas de Aceituno	36,87345	-4,082042
+Canillas de Albaida	36,84607	-3,987585
+Carratraca	36,85158	-4,818239
+Cartajima	36,6454	-5,153931
+Cártama	36,71131	-4,630741
+Casabermeja	36,89404	-4,428977
+Casarabonela	36,78524	-4,842167
+Casares	36,44333	-5,273519
+Coín	36,65871	-4,760344
+Colmenar	36,90502	-4,335212
+Comares	36,84872	-4,247061
+Cómpeta	36,833	-3,974872
+Cortes de la Frontera	36,61691	-5,342681
+Cuevas Bajas	37,23587	-4,489641
+Cuevas de San Marcos	37,26963	-4,414079
+Cuevas del Becerro	36,87637	-5,045729
+Cútar	36,83069	-4,228007
+Estepona	36,42477	-5,144903
+Faraján	36,6162	-5,189152
+Frigiliana	36,79252	-3,898076
+Fuengirola	36,53901	-4,624353
+Fuente de Piedra	37,13463	-4,729656
+Gaucín	36,5183	-5,317524
+Genalguacil	36,54427	-5,235879
+Guaro	36,65645	-4,833355
+Humilladero	37,11469	-4,703457
+Igualeja	36,63033	-5,122461
+Istán	36,58216	-4,949401
+Iznate	36,77612	-4,18356
+Jimera de Líbar	36,65202	-5,273455
+Jubrique	36,56432	-5,215247
+Júzcar	36,62506	-5,170815
+Macharaviaya	36,76239	-4,213979
+Málaga	36,71965	-4,420019
+Manilva	36,37706	-5,249271
+Marbella	36,50994	-4,886352
+Mijas	36,5957	-4,637619
+Moclinejo	36,7712	-4,254001
+Mollina	37,12564	-4,657106
+Monda	36,63018	-4,831124
+Montejaque	36,73365	-5,251382
+Nerja	36,74503	-3,876649
+Ojén	36,56424	-4,856492
+Parauta	36,65533	-5,129627
+Periana	36,92694	-4,187304
+Pizarra	36,76717	-4,707456
+Pujerra	36,6127	-5,149421
+Rincón de la Victoria	36,71566	-4,275504
+Riogordo	36,91491	-4,293622
+Ronda	36,74196	-5,166412
+Salares	36,85496	-4,024393
+Sayalonga	36,79799	-4,011899
+Sedella	36,86289	-4,03307
+Sierra de Yeguas	37,12461	-4,868739
+Teba	36,98348	-4,920274
+Tolox	36,68674	-4,904676
+Torremolinos	36,62179	-4,500273
+Torrox	36,75845	-3,952617
+Totalán	36,76529	-4,297044
+Valle de Abdalajís	36,93133	-4,682709
+Vélez-Málaga	36,77864	-4,100675
+Villanueva de Algaidas	37,18628	-4,450837
+Villanueva de Tapia	37,18035	-4,335978
+Villanueva del Rosario	36,99622	-4,364309
+Villanueva del Trabuco	37,02825	-4,338388
+Viñuela	36,8628	-4,141331
+Yunquera	36,73168	-4,920869
+Aguadulce	37,25283	-4,991125
+Alanís	38,03748	-5,715293
+Albaida del Aljarafe	37,42702	-6,165926
+Alcalá de Guadaíra	37,33833	-5,844032
+Alcalá del Río	37,51827	-5,978236
+Alcolea del Río	37,61416	-5,671293
+Algaba (La)	37,46177	-6,013736
+Algámitas	37,01501	-5,149775
+Almadén de la Plata	37,87345	-6,079766
+Almensilla	37,30904	-6,113987
+Arahal	37,2641	-5,542829
+Aznalcázar	37,30518	-6,248415
+Aznalcóllar	37,52354	-6,269565
+Badolatosa	37,30871	-4,672858
+Benacazón	37,35343	-6,199005
+Bollullos de la Mitación	37,34011	-6,138757
+Bormujos	37,37101	-6,070961
+Brenes	37,55057	-5,873065
+Burguillos	37,58725	-5,967274
+Cabezas de San Juan (Las)	36,98133	-5,940864
+Camas	37,40087	-6,032911
+Campana (La)	37,56945	-5,425768
+Cañada Rosal	37,59894	-5,210358
+Cantillana	37,60867	-5,825826
+Carmona	37,47102	-5,642328
+Carrión de los Céspedes	37,36847	-6,328958
+Casariche	37,29389	-4,759532
+Castilblanco de los Arroyos	37,67459	-5,9893
+Castilleja de Guzmán	37,40865	-6,057408
+Castilleja de la Cuesta	37,38644	-6,051838
+Castilleja del Campo	37,38591	-6,33445
+Castillo de las Guardas (El)	37,6916	-6,314299
+Cazalla de la Sierra	37,9296	-5,760799
+Constantina	37,87227	-5,619115
+Coria del Río	37,28506	-6,051814
+Coripe	36,97023	-5,441308
+Coronil (El)	37,08228	-5,633467
+Corrales (Los)	37,09732	-4,98291
+Cuervo de Sevilla (El)	36,85136	-6,041625
+Dos Hermanas	37,28318	-5,922242
+Écija	37,54093	-5,079953
+Espartinas	37,37997	-6,123577
+Estepa	37,29147	-4,878506
+Fuentes de Andalucía	37,46221	-5,348385
+Garrobo (El)	37,62539	-6,172421
+Gelves	37,33677	-6,025333
+Gerena	37,52553	-6,157654
+Gilena	37,25134	-4,913494
+Gines	37,38713	-6,078264
+Guadalcanal	38,09198	-5,821165
+Guillena	37,53902	-6,052268
+Herrera	37,36176	-4,850014
+Huévar del Aljarafe	37,35599	-6,27659
+Isla Mayor	37,13356	-6,162807
+Lantejuela (La)	37,35353	-5,222986
+Lebrija	36,91951	-6,078367
+Lora de Estepa	37,26869	-4,827815
+Lora del Río	37,65923	-5,526284
+Luisiana (La)	37,52613	-5,248721
+Madroño (El)	37,64548	-6,511699
+Mairena del Alcor	37,37316	-5,747595
+Mairena del Aljarafe	37,34449	-6,065354
+Marchena	37,32972	-5,416465
+Marinaleda	37,37473	-4,953792
+Martín de la Jara	37,10655	-4,962173
+Molares (Los)	37,15531	-5,719529
+Montellano	36,99564	-5,570882
+Morón de la Frontera	37,1223	-5,451869
+Navas de la Concepción (Las)	37,93347	-5,464808
+Olivares	37,41868	-6,155926
+Osuna	37,23697	-5,102748
+Palacios y Villafranca (Los)	37,15859	-5,924166
+Palomares del Río	37,32256	-6,057716
+Paradas	37,28981	-5,497219
+Pedrera	37,22301	-4,896754
+Pedroso (El)	37,84222	-5,763515
+Peñaflor	37,70726	-5,346412
+Pilas	37,30167	-6,302449
+Pruna	36,97364	-5,222943
+Puebla de Cazalla (La)	37,22441	-5,31227
+Puebla de los Infantes (La)	37,77852	-5,388995
+Puebla del Río (La)	37,26748	-6,062557
+Real de la Jara (El)	37,95061	-6,1559
+Rinconada (La)	37,4878	-5,979309
+Roda de Andalucía (La)	37,20099	-4,779276
+Ronquillo (El)	37,72555	-6,176963
+Rubio (El)	37,3557	-4,988925
+Salteras	37,41824	-6,111633
+San Juan de Aznalfarache	37,35838	-6,035451
+San Nicolás del Puerto	37,99353	-5,653036
+Sanlúcar la Mayor	37,38578	-6,201977
+Santiponce	37,43869	-6,038414
+Saucejo (El)	37,07005	-5,096187
+Sevilla	37,38264	-5,996295
+Tocina	37,60978	-5,733069
+Tomares	37,37404	-6,045198
+Umbrete	37,36993	-6,157722
+Utrera	37,18142	-5,781507
+Valencina de la Concepción	37,41601	-6,076959
+Villamanrique de la Condesa	37,2463	-6,306533
+Villanueva de San Juan	37,05036	-5,175473
+Villanueva del Ariscal	37,39572	-6,141313
+Villanueva del Río y Minas	37,6601	-5,714389
+Villaverde del Río	37,58805	-5,873684
+Viso del Alcor (El)	37,38826	-5,719357

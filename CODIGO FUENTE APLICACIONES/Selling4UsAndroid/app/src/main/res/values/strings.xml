@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Selling 4 Us</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+    <string name="navigation_drawer_open">Abrir</string>
+</resources>

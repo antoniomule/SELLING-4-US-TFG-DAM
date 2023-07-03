@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 03-abr-2023 13:06:51 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="selling4us" name="hibernateModel.Chat" optimistic-lock="version" table="chat">
+    <id name="idChat" type="java.lang.Integer">
+      <column name="idChat"/>
+      <generator class="identity"/>
+    </id>
+    <many-to-one class="hibernateModel.Anuncio" fetch="select" name="anuncio">
+      <column name="idAnuncio" not-null="true"/>
+    </many-to-one>
+    <many-to-one class="hibernateModel.Usuario" fetch="select" name="usuarioByIdUuarioInteresado">
+      <column name="idUuarioInteresado" not-null="true"/>
+    </many-to-one>
+    <many-to-one class="hibernateModel.Usuario" fetch="select" name="usuarioByIdPropietario">
+      <column name="idPropietario" not-null="true"/>
+    </many-to-one>
+    <property name="fechaChat" type="date">
+      <column length="10" name="fecha_chat"/>
+    </property>
+    
+        
+    <set fetch="select" inverse="true" lazy="true" name="mensajes" table="mensaje" sort="hibernateModel.MensajeComparator">
+      <key>
+        <column name="idChat" not-null="true"/>
+      </key>
+      <one-to-many class="hibernateModel.Mensaje"/>
+    </set>
+    
+    <property name="revisado_Propietario" type="boolean">
+      <column name="revisado_Propietario" not-null="true"/>
+    </property>
+    
+    <property name="revisado_Interesado" type="boolean">
+      <column name="revisado_Interesado" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>

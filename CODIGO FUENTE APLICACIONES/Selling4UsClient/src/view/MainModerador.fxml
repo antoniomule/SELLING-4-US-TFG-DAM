@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXCheckbox?>
+<?import io.github.palexdev.materialfx.controls.legacy.MFXLegacyListView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="951.0" style="-fx-background-color: #d4efed;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainModeradorController">
+   <children>
+      <Pane fx:id="idPaneNoAnuncios" layoutX="194.0" layoutY="67.0" prefHeight="562.0" prefWidth="759.0">
+         <children>
+            <Label layoutX="42.0" prefHeight="104.0" prefWidth="667.0" text="No hay anuncios nuevo, la aplicación se actualizará cuando sea necesario" textFill="LIGHTCORAL">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <MFXCheckbox fx:id="idCheckBox" layoutX="726.0" layoutY="584.0" text="Revisados" />
+      <Label fx:id="idLabelCabecera" layoutX="218.0" layoutY="18.0" text="Lista de Anuncios" textFill="LIGHTCORAL">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <MFXLegacyListView fx:id="idLegacyListAnuncio" fixedCellSize="0.0" layoutX="189.0" layoutY="70.0" prefHeight="502.0" prefWidth="759.0" style="-fx-background-color: #d4eed7; -fx-border-color: #d4eed7; visibility: true;" />
+      <MFXButton fx:id="idButtonRecargar" layoutX="828.0" layoutY="577.0" onMouseClicked="#OnMouseClickedRecargar" prefHeight="35.0" prefWidth="97.0" text="Recargar" />
+      <Pane prefHeight="626.0" prefWidth="198.0" style="-fx-background-color: FFC9A9;">
+         <children>
+            <ImageView fitHeight="66.0" fitWidth="84.0" layoutX="59.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/image-modified.png" />
+               </image>
+            </ImageView>
+            <MFXButton id="idButtonPerfil" fx:id="idButtonPerfil" layoutY="65.0" onMouseClicked="#OnMouseClickedButtonPerfil" prefHeight="27.0" prefWidth="198.0" style="-fx-background-color: F08080; -fx-border-color: FF5E00;" text="Perfil" />
+            <Line endX="628.5000610351562" layoutX="67.0" layoutY="65.0" startX="-67.00001525878906" startY="-7.62939453125E-6" stroke="LIGHTCORAL" />
+            <Label id="EtiquetaContraseña" fx:id="EtiquetaContraseña" layoutX="108.0" layoutY="586.0" text="BIENVENIDO!" textFill="#867979" />
+            <Text id="idNombreText" fx:id="idNombreText" fill="#867979" layoutX="144.0" layoutY="616.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nombre" />
+            <ImageView fx:id="idLogout" fitHeight="44.0" fitWidth="42.0" layoutX="11.0" layoutY="582.0" onMouseClicked="#OnMouseClickedLogout" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/logout.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</Pane>
